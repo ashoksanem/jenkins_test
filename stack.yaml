@@ -9,5 +9,5 @@ spec:
     - name: front-end
       image: 35.185.35.12/stack/tomcat:1
       ports:
-        - containerPort: 80
+        - containerPort: 8080
     
