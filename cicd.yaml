@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tom_javva
+  name: tom_java
 spec:
   replicas: 3
   selector:
