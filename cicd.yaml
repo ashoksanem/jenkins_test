@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 35.185.35.12/stack/tomcat:1
+        image: ashokgoud/stack:tomcatjava
         ports:
         - containerPort: 8080
