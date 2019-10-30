@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcatjava2
+  name: tomcatjava3
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: tomcatjava2
+      app: tomcatjava3
   template:
     metadata:
       labels:
-        app: tomcatjava2
+        app: tomcatjava3
     spec:
       containers:
       - name: tomcat
