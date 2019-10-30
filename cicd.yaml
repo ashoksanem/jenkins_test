@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcatjava3
+  name: tomcatjava
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: tomcatjava3
+      app: tomcatjava
   template:
     metadata:
       labels:
-        app: tomcatjava3
+        app: tomcatjava
     spec:
       containers:
       - name: tomcat
-        image: ashokgoud/stack:latest
+        image: ashokgoud/stack:tomcatjava
         ports:
         - containerPort: 8080
